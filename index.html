@@ -3,37 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
   </head>
+
   <body>
-    <header>
-      <input type="search" placeholder="Enter a city..." required />
-      <input type="submit" value="Search" />
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Friday 14:36, light intensity drizzle
-          <br />
-          Humidity: 93%, Wind: 5.14km/h
-        </p>
-      </div>
-      <div>⛅ 12°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/julimontif" target="_blank">Julieta Monti</a>
-      is
-      <a href="https://github.com/julimontif/weather-app" target="_blank"
-        >open-sourced on Github</a
-      >
-      and
-      <a
-        href="https://665a10c5b69bc27c1b967946--weather-app-shecodes24.netlify.app/"
-        target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <input type="search" placeholder="Enter a city..." required />
+        <input type="submit" value="Search" />
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Friday 14:36, light intensity drizzle
+            <br />
+            Humidity: 93%, Wind: 5.14km/h
+          </p>
+        </div>
+        <div>⛅ 12°C</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/julimontif" target="_blank"
+          >Julieta Monti</a
+        >
+        is
+        <a href="https://github.com/julimontif/weather-app" target="_blank"
+          >open-sourced on Github</a
+        >
+        and
+        <a
+          href="https://665a10c5b69bc27c1b967946--weather-app-shecodes24.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
