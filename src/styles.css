@@ -3,7 +3,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 a {
-    color: #885DF1;
+    color: rgb(97, 94, 252);
 }
 .weather-app {
     background: white;
@@ -27,7 +27,7 @@ header {
 }
 
 .search-form-button {
-    background: #885DF1;
+    background: rgb(97, 94, 252);
     padding: 15px 30px;
     border: none;
     border-radius: 6px;
@@ -54,7 +54,7 @@ main {
     font-weight: 500;
 }
 .wetaher-app-details strong {
-    color: #F65292;
+    color: rgb(97, 94, 252);
 
 }
 .weather-app-temp-container {
