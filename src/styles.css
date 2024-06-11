@@ -95,7 +95,7 @@ main {
 
 .weather-forecast-temperatures {
     text-align: center;
-    color: #f65282;
+    color: rgb(97, 94, 252);
     margin-top: 10px;
     display: flex;
     justify-content: center;
